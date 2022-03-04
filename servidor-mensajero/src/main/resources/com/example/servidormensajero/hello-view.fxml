@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="canva" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="214.0" layoutY="53.0" prefHeight="17.0" prefWidth="173.0" text="                  CHAT" textAlignment="JUSTIFY" />
+      <TextField fx:id="Txtescribe" layoutX="198.0" layoutY="325.0" prefHeight="25.0" prefWidth="225.0" />
+      <Button fx:id="BtnEnviar" layoutX="466.0" layoutY="325.0" mnemonicParsing="false" text="Enviar" />
+      <ScrollPane fx:id="barra_texto" layoutX="73.0" layoutY="77.0" prefHeight="223.0" prefWidth="431.0">
+         <content>
+            <VBox fx:id="Vbox_mensajes" prefHeight="213.0" prefWidth="374.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
