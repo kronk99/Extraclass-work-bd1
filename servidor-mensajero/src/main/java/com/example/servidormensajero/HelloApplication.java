@@ -16,7 +16,7 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
     }
-
+//esta es una prueba de gitkraken
     public static void main(String[] args) {
         launch();
     }
